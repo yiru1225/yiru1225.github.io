@@ -411,7 +411,7 @@
 
 
         
-
+        <br><br>
       <a class="anchor" id="experiment" style="margin-top: -2em"></a>
       <section class="details" style="text-align: justify;">
         <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%;">
@@ -421,11 +421,25 @@
         
         <div style="display: flex; margin: auto; width: 100%; height: auto; align-content: center; align-items: center;  justify-content: center;">
           <img
-          style="width: 95%; height: auto"
+          style="width: 100%; height: auto"
           src="files/main_experiment.png"
           />
         </div>
         <br />
+        <br><br>
+        <a class="anchor" id="experiment" style="margin-top: -2em"></a>
+        <section class="details" style="text-align: justify;">
+          <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%;">
+            <h2>Ablation Study</h2>
+          </div>
+
+        <p>To explore the advantages of our complete, dynamic, object-level semantic flow representation, we conduct the ablation study with conventional scene-level feature clouds. We selected the <i>Shoe Place</i> and <i>Dual Shoes Place (T)</i> tasks for comparison because they require adjustments to the orientation of the shoe throughout the entire trajectory, which rely more on long-term semantic understanding. Additionally, object occlusions are designed into the tasks, posing a greater challenge for semantic comprehension.</p>
+        <div style="display: flex; margin: auto; width: 100%; height: auto; align-content: center; align-items: center;  justify-content: center;">
+          <img
+          style="width: 100%; height: auto"
+          src="files/ablation.png"
+          />
+        </div>
         <!-- <h3>Evaluation on Pose-Aware Manipulation Tasks</h3>
         <p>To investigate the ability of our method to provide semantic information that enhances the policy's understanding of the semantics of the manipulated object parts, we selected <i>Shoe Place</i>, <i>Dual Shoes Place</i>, <i>Tool Adjust</i>, and <i>Bottle Adjust</i> as test tasks, requiring the robotic arm to meet pose-aware requirements. We chose objects that are geometrically similar to the training set for testing, to reduce the examination of the model's generalization ability. We chose unseen objects as the test set to avoid the situation that the policy memorizes training objects, which cheats the performance results.</p>
     
